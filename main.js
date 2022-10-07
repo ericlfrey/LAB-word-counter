@@ -1,9 +1,6 @@
-console.log("Connected!")
+console.log("Connected!");
 // YOU WILL MODIFY THIS FUNCTION TO GET THE PROGRAM TO WORK
 const wordCounter = (value) => {
-
-  console.log(typeof (value));
-
   if (value) {
     const words = value.split(' ').length
     wordCount.innerHTML = `Word Count: ${words}`;
